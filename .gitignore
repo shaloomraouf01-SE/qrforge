@@ -1,0 +1,13 @@
+node_modules/
+dist/
+outputs/
+artifacts/
+*.tsbuildinfo
+.sites-runtime/
+.sites-checkout/
+.sites-checkout-*/
+.env
+.env.*
+!.env.example
+/preview.png
+/classic-qr-preview.png
