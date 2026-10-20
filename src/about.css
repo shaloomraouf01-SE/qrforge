@@ -1,0 +1,71 @@
+.about-page { max-width: 1190px; margin: auto; padding-top: 30px; }
+.about-breadcrumb { display: flex; align-items: center; gap: 12px; font-size: 11px; color: var(--sub); }
+.about-breadcrumb a:hover { color: var(--accent); }
+.about-breadcrumb>span:last-child { color: var(--accent); }
+.about-hero { display: grid; grid-template-columns: 1.1fr 1fr; gap: 65px; align-items: center; padding: 51px 0 58px; }
+.about-intro { animation: rise-in .65s ease both; }
+.about-intro h1 { font-family: 'Space Grotesk', sans-serif; font-size: clamp(48px, 5.2vw, 70px); line-height: 1.1; letter-spacing: -3.4px; margin: 19px 0 24px; font-weight: 600; }
+.about-intro h1 span { color: var(--accent); }
+.about-intro>p { max-width: 475px; font-size: 15px; line-height: 1.85; color: var(--sub); margin: 0 0 27px; }
+.about-hero-note { display: flex; align-items: center; gap: 7px; color: var(--sub); font-size: 10px; margin-top: 19px; }
+.about-hero-note svg { color: var(--accent); }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-facts { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 28px 0; }
+.about-facts>div { display: flex; flex-direction: column; gap: 8px; padding-left: 29px; border-left: 1px solid var(--line); }
+.about-facts>div:first-child { padding-left: 0; border-left: 0; }
+.about-facts strong { font-family: 'Space Grotesk', sans-serif; font-size: 29px; font-weight: 600; letter-spacing: -1px; }
+.about-facts span { color: var(--sub); font-size: 10px; line-height: 1.6; }
+.about-page h2 { font-family: 'Space Grotesk', sans-serif; font-size: clamp(30px, 3.4vw, 43px); line-height: 1.18; font-weight: 600; letter-spacing: -1.5px; margin: 17px 0 0; }
+.about-page h2 span { color: var(--sub); }
+.about-mission { display: grid; grid-template-columns: 1fr 1fr; gap: 85px; padding: 76px 0; border-bottom: 1px solid var(--line); }
+.about-mission-copy>p { margin: 0 0 18px; color: var(--sub); line-height: 1.9; font-size: 14px; }
+.about-mission-copy>p:first-child { color: var(--text); }
+.about-mission .text-link { margin-top: 3px; }
+.about-values { padding: 76px 0; }
+.about-section-head { margin-bottom: 32px; }
+.about-values-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 19px; }
+.about-value { padding: 27px; background: var(--surface); border: 1px solid var(--line); border-radius: 16px; }
+.about-value-top { display: flex; align-items: center; justify-content: space-between; color: var(--accent); }
+.about-value-top>span { color: var(--muted); font-size: 10px; font-family: 'Space Grotesk', sans-serif; }
+.about-value h3 { font-family: 'Space Grotesk', sans-serif; font-size: 18px; font-weight: 600; letter-spacing: -.5px; margin: 28px 0 13px; }
+.about-value p { font-size: 12px; color: var(--sub); line-height: 1.85; margin: 0; }
+.about-creator { display: grid; grid-template-columns: .8fr 1.2fr; gap: 70px; align-items: center; padding: 42px; border: 1px solid var(--line); border-radius: 22px; background: var(--surface); }
+.creator-art { min-height: 305px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; overflow: hidden; position: relative; isolation: isolate; padding: 23px; border: 1px solid color-mix(in srgb, var(--accent) 20%, var(--line)); border-radius: 13px; background: linear-gradient(150deg, var(--tint), var(--field)); }
+.creator-art:before, .creator-art:after { content: ''; position: absolute; z-index: -1; width: 270px; height: 270px; border: 1px solid color-mix(in srgb, var(--accent) 13%, transparent); transform: rotate(-30deg); border-radius: 35px; }
+.creator-art:before { right: -120px; bottom: -90px; }.creator-art:after { left: -160px; top: -110px; }
+.creator-art-label { display: flex; align-items: center; gap: 7px; color: var(--accent); letter-spacing: 1.2px; font-size: 7px; align-self: flex-start; }
+.creator-monogram { position: relative; font-family: 'Space Grotesk', sans-serif; font-size: 100px; letter-spacing: -9px; line-height: 1; color: var(--accent); }
+.creator-monogram>span { display: inline-block; position: absolute; font-size: 34px; top: 0; right: -23px; font-weight: 400; animation: star-turn 20s linear infinite; }
+.creator-art-bottom { display: flex; flex-direction: column; align-items: center; gap: 7px; }
+.creator-art-bottom>span:first-child { font-family: 'Space Grotesk', sans-serif; font-size: 12px; font-weight: 600; letter-spacing: 2px; }
+.creator-art-bottom>span:last-child { font-size: 6px; letter-spacing: 2px; color: var(--sub); }
+.creator-copy h2 { font-size: 34px; margin-bottom: 23px; }
+.creator-copy h2>span { color: var(--accent); }
+.creator-copy>p { color: var(--sub); font-size: 13px; line-height: 1.85; margin: 0 0 14px; }
+.creator-disciplines { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; margin-top: 23px; }
+.creator-disciplines>span { display: inline-flex; align-items: center; gap: 6px; background: var(--field); border: 1px solid var(--line); border-radius: 30px; padding: 7px 10px; font-size: 9px; color: var(--sub); }
+.creator-disciplines svg { color: var(--accent); }
+.about-invitation { display: flex; align-items: center; justify-content: space-between; gap: 35px; padding: 59px 0 10px; }
+.about-invitation h2 { font-size: 31px; margin-top: 13px; }
+.about-invitation p { display: flex; align-items: center; gap: 7px; color: var(--sub); font-size: 11px; margin: 15px 0 0; line-height: 1.7; }
+.about-invitation p svg { color: var(--success); flex-shrink: 0; }
+.about-invitation .landing-primary { flex-shrink: 0; }
+@media(max-width:1000px) { .about-hero { gap: 25px; }.about-intro h1 { font-size: 56px; }.about-mission { gap: 45px; }.about-creator { gap: 35px; padding: 30px; }.creator-copy h2 { font-size: 29px; }.about-values-grid { gap: 13px; }.about-value { padding: 22px; }.about-facts>div { padding-left: 20px; }.about-invitation { gap: 25px; }.about-invitation h2 { font-size: 28px; } }
+@media(max-width:700px) {
+ .about-page { padding-top: 24px; }.about-hero { grid-template-columns: 1fr; padding: 36px 5px 41px; gap: 35px; }.about-intro h1 { font-size: clamp(43px, 10.5vw, 61px); letter-spacing: -2.2px; }.about-intro>p { font-size: 14px; margin-bottom: 24px; }.about-hero-note { margin-top: 17px; }
+ .about-facts { grid-template-columns: 1fr 1fr; gap: 25px 15px; padding: 27px 0; }.about-facts>div { padding-left: 0; border-left: 0; }.about-facts strong { font-size: 27px; }.about-facts span { font-size: 9px; }.about-mission { grid-template-columns: 1fr; gap: 25px; padding: 53px 0; }.about-page h2 { font-size: 33px; letter-spacing: -1.2px; }.about-mission-copy>p { font-size: 13px; }.about-values { padding: 53px 0; }.about-values-grid { grid-template-columns: 1fr; gap: 13px; }.about-value { padding: 25px; }.about-value h3 { margin-top: 22px; font-size: 20px; }.about-value p { font-size: 13px; }.about-creator { grid-template-columns: 1fr; padding: 22px; gap: 31px; }.creator-art { min-height: 260px; }.creator-monogram { font-size: 92px; }.creator-copy h2 { font-size: 28px; line-height: 1.25; }.creator-copy>p { font-size: 13px; }.creator-disciplines { gap: 7px; }.creator-disciplines>span { padding: 7px 8px; font-size: 8px; }.about-invitation { flex-direction: column; align-items: flex-start; gap: 23px; padding-top: 43px; }.about-invitation h2 { font-size: 28px; }.about-invitation p { font-size: 10px; }
+}
+@media(max-width:370px) { .about-intro h1 { font-size: 41px; }.about-page h2 { font-size: 29px; }.creator-copy h2 { font-size: 25px; } }
